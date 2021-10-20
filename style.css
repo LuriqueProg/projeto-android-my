@@ -1,0 +1,193 @@
+@font-face {
+    font-family:'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+@font-face {
+    font-family:'idroid-bold';
+    src: url('fontes/IDroid\ Bold.otf') format('opentype');
+}
+@font-face {
+    font-family:'idroid-bold-italic';
+    src: url('fontes/IDroid\ Bold\ Italic.otf') format('opentype');
+}
+@font-face {
+    font-family:'idroid-italic';
+    src: url('fontes/IDroid\ Italic.otf') format('opentype');
+}
+
+body{            
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: none;
+    font-family: sans-serif;      
+}
+#header{
+    background-image: linear-gradient(180deg, #3BD37F 30%,#2DA262, #247D4B, #258350 );
+    margin-top:0px;
+    padding-top: 15px;
+    /* position: fixed; */
+    width: 100%;
+    border-radius: 4px;
+}
+#header-h1{
+    font:normal bold 2em sans-serif;
+    color: whitesmoke;
+    text-shadow: 4px 4px 10px rgba(128, 128, 128, 0.281);
+    text-align: center;
+}
+#header-p{
+    font:normal, bold, 1em, sans-serif;
+    color: whitesmoke;
+    text-shadow: 4px 4px 10px rgba(128, 128, 128, 0.281);
+    text-align: center;
+}
+header > nav >ul, .nav-ulist-list{
+    color: whitesmoke;
+    text-decoration: none;
+    list-style: none;
+}
+nav >ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color:#247247 ;
+    margin: 15px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+    padding: 6px 6px 3px 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px 2px rgba(44, 44, 44, 0.411);
+}
+.nav-ulist-list{
+    padding: 1px 10px 1px 10px;
+}
+
+.extra{
+    margin: 30px;                
+    background-color: rgba(145, 204, 145, 0.507);
+    border-radius: 20px;
+    
+}
+.extra-extra{
+    color: white;
+    background-color: rgb(59, 185, 59);
+    border-radius: 15px 15px 0px 0px;
+    padding: 1px;
+}
+section > div >p{
+    text-indent: 30px;
+    padding-left: 18px;
+    font-size: 1.2em;
+}
+#h3{
+    margin-left: 30px;
+    font-weight: bold;
+}
+.ulist-2::before{
+    content:'✓';
+    padding-right: 5px;
+}
+section > div >ul{
+    list-style: none;
+    padding: 5px;   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 150px;
+            
+}
+.underline{
+    text-decoration: underline;
+}
+section > div >p >a{
+    text-decoration: none;
+    color: green;
+}
+
+#p{
+    padding: 30px;
+    text-indent: 30px;
+}
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+
+main{
+    width: 1180px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 0px;            
+}
+body{
+    background-color: #84e1ad;
+    height: 100%;
+}
+
+h1{
+    margin-top: 0px;
+    padding-top: 35px;
+    font: normal normal 2.5em 'idroid','idroid-bold','idroid-bold-italic','idroid-italic', serif;
+    padding-left: 30px; 
+    color: #1a5c38;           
+}
+h2{
+    margin-top: 0px;            
+    font: normal normal 2.1em 'idroid','idroid-bold','idroid-bold-italic','idroid-italic', serif;               
+    background-image: linear-gradient(to right, #84e1ac83, white 80%);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-left: 30px;
+    padding: 5px 0px 5px 14px;
+    width: 900px;  
+    color: #1a5c38;    
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+
+.sec >p , figcaption{
+    padding-left: 30px;
+    padding-bottom: 0px;
+    text-indent: 30px;
+    font-size: 1.2em;
+    margin: 6px 0px 6px 0px ;
+}
+
+.mark{
+    color: darkgreen;
+}
+.img-irina{
+    width: 1100px;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.center{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+    width:1180px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgba(15, 156, 15, 0.692);
+}
